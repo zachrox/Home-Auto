@@ -1,2 +1,1 @@
-# verbose-happiness
-Esp8266 home automation server and interface
+Esp8266 home automation server and web interface
