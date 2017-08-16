@@ -8,8 +8,8 @@
     <body>
         <div id="nav">
             <ul>
-                <li><a href="Main.html">Home</a></li>
-                <li><a class="active" href="BackGarden.html">Back Garden</a></li>
+                <li><a href="Main.php">Home</a></li>
+                <li><a class="active" href="BackGarden.php">Back Garden</a></li>
                 <li><a href="#">Front Room</a></li>
                 <li><a href="#">Settings</a></li>
             </ul>
