@@ -75,3 +75,16 @@ p {
 	font-family: "bebas";
 	src: url("http://thecodeplayer.com/uploads/fonts/BebasNeue.otf");
 }
+
+#chart_div {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+}
+#chart_div2 {
+    position: relative;
+    display: inline-block;
+    width: 500px;
+    height: 150px;
+}
