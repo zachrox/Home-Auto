@@ -64,3 +64,14 @@ p {
     width: 100%;
     list-style:none;
 }
+
+#canvas {
+	display: block;
+	width: 300px;
+	margin: 100px auto;
+}
+
+@font-face {
+	font-family: "bebas";
+	src: url("http://thecodeplayer.com/uploads/fonts/BebasNeue.otf");
+}
