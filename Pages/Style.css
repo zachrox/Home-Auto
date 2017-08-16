@@ -5,7 +5,7 @@ body {
 h5 {
     color: white;
     text-align: center;
-    size: 20;
+    size: 20px;
 }
 
 p {
@@ -22,7 +22,7 @@ p {
     margin:0 auto;
     overflow: hidden;
     position: fixed;
-    top: 10;
+    top: 10px;
     width: 100%;
 }
 
@@ -37,7 +37,7 @@ p {
 }
 
 #nav li a {
-    color: white;
+    color: #FFFFFF;
     display: inline-block;
     text-align: left;
     padding: 15px 30px;
@@ -50,4 +50,17 @@ p {
 
 .active {
     background-color: #4CAF50;
+}
+
+#widget_box {
+    position: fixed;
+    text-align: center;
+    display:table;
+    padding: 0;
+    margin:0 auto;
+    top: 150px;
+    height: 500px;
+    display: inline-block;
+    width: 100%;
+    list-style:none;
 }

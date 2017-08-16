@@ -15,7 +15,14 @@
             </ul>
         </div>
 
-        
+    <div id="widget_box">
+        <p>The date is: </p>
 
+        <?php echo gmdate('<p> d/m/Y <p/>'); ?> 
+
+    
+    <FORM METHOD=GET ACTION="textarea.php"> <INPUT TYPE=SUBMIT> </FORM>
+    </div>
+    </FORM>
     </body>
 </html>
