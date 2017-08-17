@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" type="text/css" href="Style.css">
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
 
-<script type="text/javascript" src="googleLoader.js"></script>
-   <script type="text/javascript">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+<script type="text/javascript">
       google.charts.load('current', {'packages':['gauge']});
       google.charts.setOnLoadCallback(drawChart);
 
@@ -102,8 +103,8 @@
         <div id="nav">
             <ul>
                 <li><a href="Main.php">Home</a></li>
+                <li><a href="FrontRoom.php">Front Room</a></li>
                 <li><a class="active" href="BackGarden.php">Back Garden</a></li>
-                <li><a href="#">Front Room</a></li>
                 <li><a href="#">Settings</a></li>
             </ul>
         </div>
@@ -114,7 +115,6 @@
             <br>
             <p>Vegetable Garden Sensors</p>
             <div id="chart_div2"></div>
-
     
         </div>
 

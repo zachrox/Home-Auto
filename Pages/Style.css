@@ -49,20 +49,7 @@ p {
 }
 
 .active {
-    background-color: #4CAF50;
-}
-
-#widget_box {
-    position: fixed;
-    text-align: center;
-    display:table;
-    padding: 0;
-    margin:0 auto;
-    top: 150px;
-    height: 500px;
-    display: inline-block;
-    width: 100%;
-    list-style:none;
+    background-color: #4BBA4F;
 }
 
 #canvas {
@@ -88,3 +75,31 @@ p {
     width: 500px;
     height: 150px;
 }
+
+#widget_box {
+    position: fixed;
+    text-align: center;
+    display:table;
+    padding: 0;
+    margin:0 auto;
+    top: 150px;
+    display: inline-block;
+    width: 100%;
+    list-style:none;
+}
+
+#home_widgets1 {
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    float: left;
+}
+
+#home_widgets2 {
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    position: relative;
+    float: right;
+    }
