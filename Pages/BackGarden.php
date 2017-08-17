@@ -60,17 +60,17 @@
           chart.draw(data, options);
         }, 1300);
         setInterval(function() {
-          data.setValue(1, 1, 30 + Math.round(10 * Math.random()));
+          data.setValue(1, 1, 0);
           chart.draw(data, options);
         }, 1100);
 
 
         setInterval(function() {
-          data.setValue(2, 1, 20 + Math.round(10 * Math.random()));
+          data.setValue(2, 1, 0);
           chart.draw(data, options);
         }, 1000);
         setInterval(function() {
-          data.setValue(3, 1, 20 + Math.round(10 * Math.random()));
+          data.setValue(3, 1, 0);
           chart.draw(data, options);
         }, 1200);
       }
@@ -101,21 +101,21 @@
         chart.draw(data, options);
 
         setInterval(function() {
-          data.setValue(0, 1, 60 + Math.round(10 * Math.random()));
+          data.setValue(0, 1, 0);
           chart.draw(data, options);
         }, 1300);
         setInterval(function() {
-          data.setValue(1, 1, 60 + Math.round(10 * Math.random()));
+          data.setValue(1, 1, 0);
           chart.draw(data, options);
         }, 1100);
 
 
         setInterval(function() {
-          data.setValue(2, 1, 60 + Math.round(10 * Math.random()));
+          data.setValue(2, 1, 0);
           chart.draw(data, options);
         }, 1000);
         setInterval(function() {
-          data.setValue(3, 1, 60 + Math.round(10 * Math.random()));
+          data.setValue(3, 1, 0);
           chart.draw(data, options);
         }, 1200);
       }
