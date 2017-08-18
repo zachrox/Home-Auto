@@ -76,7 +76,7 @@ p {
     height: 150px;
 }
 
-#widget_box {
+#content {
     position: fixed;
     text-align: center;
     display:table;
