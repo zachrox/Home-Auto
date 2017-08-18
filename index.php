@@ -11,7 +11,7 @@
                 <li><a href="index.php?content=Home">Home</a></li>
                 <li><a href="index.php?content=FrontRoom">Front Room</a></li>
                 <li><a href="index.php?content=BackGarden">Back Garden</a></li>
-                <li><a href="index.php?content=Settings">Settings</a></li>
+                <li><a href="#">Settings</a></li>
             </ul>
         </div>
         <div id="content">
@@ -22,7 +22,7 @@
                     $content = filter_var($content, FILTER_SANITIZE_STRING);
                 endif;
                     $content = (empty($content)) ? "Home" : $content;
-                    include 'content/' . $contnent . '.php';
+                include 'content/' . $contnent . '.php';
             ?>    
 
         </div>
