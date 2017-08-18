@@ -1,4 +1,5 @@
-    $servername = "localhost";
+<?php
+	$servername = "localhost";
     $username = "root";
     $password = "ADMIN";
     $dbname = "8266Data";
@@ -22,3 +23,4 @@
         echo "0 results";
     }
     $conn->close();
+?>
