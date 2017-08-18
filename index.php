@@ -24,7 +24,6 @@
                     $content = (empty($content)) ? "Home" : $content;
                 include 'content/' . $content . '.php';
             ?>    
-
         </div>
     </body>
 </html>

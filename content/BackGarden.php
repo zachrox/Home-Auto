@@ -5,6 +5,11 @@
       google.charts.load('current', {'packages':['gauge']});
       google.charts.setOnLoadCallback(drawChart);
 
+      function loadTempSense() {
+        //ajax or something to use the tempSense.php file to get SQL data
+
+      }
+
       function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
@@ -27,7 +32,7 @@
         chart.draw(data, options);
 
         setInterval(function() {
-          data.setValue(0, 1, <?php include 'content/tempSense.php' ?>;);
+          data.setValue(0, 1, loadTempSense(););
           chart.draw(data, options);
         }, 1300);
         setInterval(function() {
