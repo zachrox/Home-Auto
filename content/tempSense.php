@@ -1,4 +1,3 @@
-<?php
     $servername = "localhost";
     $username = "root";
     $password = "ADMIN";
@@ -23,4 +22,3 @@
         echo "0 results";
     }
     $conn->close();
-?>
