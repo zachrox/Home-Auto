@@ -41,7 +41,10 @@
           } 
 
           $sql = "SELECT * FROM 8266Data.TempData ORDER BY id DESC LIMIT 1";
-          $result = $conn->query($sql);
+
+          setInterval(function() {
+            $result = $conn->query($sql);
+          }, 1000 * 60 * 30);
 
           if ($result->num_rows > 0) {
               // output data of each row
@@ -59,7 +62,6 @@
           data.setValue(1, 1, 0);
           chart.draw(data, options);
         }, 1100);
-
 
         setInterval(function() {
           data.setValue(2, 1, 0);

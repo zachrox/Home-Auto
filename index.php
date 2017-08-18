@@ -22,7 +22,7 @@
                     $content = filter_var($content, FILTER_SANITIZE_STRING);
                 endif;
                     $content = (empty($content)) ? "Home" : $content;
-                include 'content/' . $contnent . '.php';
+                include 'content/' . $content . '.php';
             ?>    
 
         </div>
