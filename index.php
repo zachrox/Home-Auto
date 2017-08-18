@@ -15,17 +15,16 @@
             </ul>
         </div>
         <div id="content">
-        <?php 
-            $content = '';
-            if (isset($_GET['content'])):
-                $content = $_GET['content'];
-                $content = filter_var($content, FILTER_SANITIZE_STRING);
-            endif;
-                $content = (empty($content)) ? "Home" : $content;
-                include 'content/' . $contnent . '.php';
-         ?>    
+            <?php 
+                $content = '';
+                if (isset($_GET['content'])):
+                    $content = $_GET['content'];
+                    $content = filter_var($content, FILTER_SANITIZE_STRING);
+                endif;
+                    $content = (empty($content)) ? "Home" : $content;
+                    include 'content/' . $contnent . '.php';
+            ?>    
 
         </div>
     </body>
 </html>
-//class="active"
