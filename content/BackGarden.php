@@ -2,12 +2,18 @@
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
 <script type="text/javascript">
+
+	  
       google.charts.load('current', {'packages':['gauge']});
       google.charts.setOnLoadCallback(drawChart);
 
       function loadTempSense() {
-        //ajax or something to use the tempSense.php file to get SQL data
-
+        // This calls the file as a "bash" script,
+		// so it'll run the code inside when ever you  call this function
+		<?php
+		include 'tempSense.php';
+		?>
+		
       }
 
       function drawChart() {
